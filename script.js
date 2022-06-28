@@ -3,6 +3,7 @@
 const movieContainer = document.querySelector(".movie-container");
 const search = document.querySelector(".search-input");
 
+//api url
 const apiUrl = "http://www.omdbapi.com/?apikey=45f6b855";
 const api = () => {
   fetch(`${apiUrl}&s=${search.value}`)
