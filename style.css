@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.site-title {
+  color: rgb(167, 208, 241);
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  padding-left: 1rem;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(171, 190, 206);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  background-color: rgb(10, 39, 63);
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  height: 450px;
+  width: 300px;
+  background-color: rgb(146, 146, 146);
+  border: 5px solid rgb(37, 124, 206);
+  border-radius: 10px;
+  margin-bottom: 6rem;
+  margin-right: 2rem;
+}
+
+.movie-poster {
+  height: 100%;
+  width: 100%;
+}
+
+.movie h1,
+p {
+  color: white;
+}
+
+.movie h1 {
+  font-size: large;
+}
+
+.movie:hover {
+  background-color: black;
+  transition: 2s;
+}
+
+.movie-poster:hover,
+.movie-poster:active {
+  height: 90%;
+  transition: 1s;
+}
